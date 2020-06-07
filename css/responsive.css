@@ -1,0 +1,105 @@
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .menu-item button {
+        float: left;
+    }
+    .menu-item input[type="text"] {
+        width: auto;
+    }
+    .service-item p {
+        width: 335px;
+        margin: 0 auto;
+    }
+    .service-item {
+        margin-top: auto;
+        margin-bottom: 50px;
+    }
+    .work-nav ul {
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+    .work-nav ul li {
+        padding: 0px 10px;
+        position: relative;
+        display: inline-block;
+    }
+    .team-member {
+        margin-top: 20px;
+    }
+    .ftr-content .ftr-first-item ul li::after {
+        width: 50%;
+    }
+    .ftr-four-item ul li .frt-tex {
+        float: none;
+    }
+    footer .fotter-icon {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .f-txt p {
+        text-align: center;
+    }
+}
+
+ /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .left-img {
+        width: auto;
+    }
+    .left-img img {
+        margin-right: 19px;
+    }
+    .menu-item button {
+        float: left;
+    }
+    .menu-item input[type="text"] {
+        width: auto;
+    }
+    .service-item p {
+        width: 335px;
+        margin: 0 auto;
+    }
+    .service-item {
+        margin-top: auto;
+        margin-bottom: 50px;
+    }
+    .work-nav ul {
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+    .work-nav ul li {
+        padding: 0px 10px;
+        position: relative;
+        display: inline-block;
+    }
+    .team-member {
+        margin-top: 20px;
+    }
+    .ftr-content .ftr-first-item ul li::after {
+        width: 50%;
+    }
+    .ftr-four-item ul li .frt-tex {
+        float: none;
+    }
+    footer .fotter-icon {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .f-txt p {
+        text-align: center;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... } */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
